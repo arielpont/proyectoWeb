@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+body {
+  margin: 0;
+  background-color: #e5e5f7;
+opacity: 1;
+background: radial-gradient(circle, transparent 20%, #e5e5f7 20%, #e5e5f7 80%, transparent 80%, transparent), radial-gradient(circle, transparent 20%, #e5e5f7 20%, #e5e5f7 80%, transparent 80%, transparent) 25px 25px, linear-gradient(#444cf7 2px, transparent 2px) 0 -1px, linear-gradient(90deg, #444cf7 2px, #e5e5f7 2px) -1px 0;
+background-size: 50px 50px, 50px 50px, 25px 25px, 25px 25px;
+}
+
+h1 {
+  width: 80%;
+  border-radius: 50px;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid darkviolet;
+  color: darkviolet;
+  font-family: "Goldman", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  text-shadow: 4px 4px 4px rgba(0,0,0,0.50);
+  background-color: white;
+}
+
+h2 {
+  font-family: "Goldman", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+p, button {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+section {
+  width: 80%;
+  margin: 20px auto;
+  display: flow-root;
+  padding: 20px 0px;
+}
+
+article {
+  width: calc(100% / 3 - 4px - 40px);
+  border: 2px solid black;
+  margin: 0px 20px;
+  background-color: pink;
+  float: left;
+  border-radius: 20px;
+}
+
+article:hover {
+  box-shadow: 12px 11px 11px 1px rgba(0,0,0,0.61);
+}
+
+article > img {
+  width: 100%;
+  border-radius: 20px 20px 0px 0px;
+  filter: grayscale(100%);
+}
+
+article > img:hover {
+  filter: grayscale(0%);
+}
+
+article > h2, article > p {
+  text-align: center;
+  padding: 0px 20px;
+  margin: 10px 0px;
+}
+
+article > p {
+  font-size: 14px;
+}
+
+article > a {
+  text-decoration: none;
+}
+
+article > a > button {
+  display: block;
+  width: 70%;
+  margin: 30px auto;
+  padding: 10px 0px;
+  border-radius: 40px;
+  border: 1px solid black;
+  cursor: pointer;
+  background-color: darkviolet;
+}
+
+article > a > button:hover {
+  background: #833AB4;
+  background: linear-gradient(320deg,rgba(131, 58, 180, 1) 0%, rgba(235, 49, 49, 1) 50%, rgba(252, 176, 69, 1) 100%);
+  box-shadow: 12px 11px 11px 1px rgba(0,0,0,0.61);
+}
+
+footer {
+  background-color: darkviolet;
+  padding: 20px 0px;
+  display: flow-root;
+  background: #833AB4;
+background: linear-gradient(320deg,rgba(131, 58, 180, 1) 0%, rgba(235, 49, 49, 1) 50%, rgba(252, 176, 69, 1) 100%);
+}
+
+footer > p {
+  color: white;
+  border: 2px solid white;
+  border-radius: 40px;
+  width: 40%;
+  text-align: center;
+  padding: 10px 0px;
+  margin-left: 10%;
+  float: left;
+}
+
+footer > a {
+  display: block;
+  background-color: white;
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+  float: right;
+  margin-top: 15px;
+  margin-right: 20px; 
+}
+
+footer > a:hover {
+  background-color: orange;
+  box-shadow: 12px 12px 10px 0px rgba(0,0,0,0.51);
+}
+
+.last {
+  margin-right: 10%;
+}
+
+footer > a > i {
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-size: 24px;
+  padding: 8px 0px;
+  color: darkviolet;
+}
+
+footer > a > i:hover {
+  color: black;
+}
